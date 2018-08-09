@@ -21,7 +21,7 @@
                             <h:message for="reserving column"/>
                             <h:inputText a:placeholder="ITSM Request No." id="RequestNo" validatorMessage="ITSM request should be in the format RF12345"
                                          value="#{controller.storageForm.requestNo}" title="ITSMRequestNo" autocomplete="off">
-                                <f:validateRegex pattern="RF[\d]+"/>
+                                <f:validateRegex pattern="RF[\w]+"/>
                             </h:inputText>
                             <h:message id="request_message" for="RequestNo" style="color:red"/>
                             <h:selectOneListbox id="shareType" value="#{controller.storageForm.shareType}" 

@@ -94,12 +94,12 @@ public class SendEmail {
                     + "</h3>"
                     + "<br />"
                     + "<br />"
-                    + "<a href=\"https://mv3lscmt01tevc1:8383/\">"
+                    + "<a href=\"https://mv3lscmt01tevc1:8282/\">"
                     + "Full Report"
                     + "</a>"
                     + "<br />"
                     + "<br />"
-                    + "<a href=\"https://mv3lscmt01tevc1:8383/update.jsf\">"
+                    + "<a href=\"https://mv3lscmt01tevc1:8282/update.jsf\">"
                     + "Search Form"
                     + "</a>", "text/html");
 
